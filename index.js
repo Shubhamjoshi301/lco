@@ -2,7 +2,7 @@ console.log("Hello from Shubham")
 const express = require('express')
 const res = require('express/lib/response')
 const app = express()  
-const PORT = 4000 || process.env.PORT
+const PORT = process.env.PORT ||  4000 
 
 const format = require('date-format')
 
